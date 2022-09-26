@@ -24,6 +24,9 @@ jobs:
     permissions:
       contents: read
       packages: write
+    defaults:
+      run:
+        working-directory: sample-packages/docker
 
     steps:
       - name: Checkout repository
